@@ -15,7 +15,7 @@ class Card3 extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: NetworkImage(
-                'https://img.freepik.com/fotos-premium/visao-vertical-da-agua-do-mar-azul-e-limpa-e-da-praia-de-areia-amarela-conceito-de-lugar-cenico-tropical-e-ferias-de-verao-turismo-e-turistas_425263-1838.jpg?w=2000'),
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSoZToctYSroQo1ZYPhGBYL-kjLKJEurTX4CzZjZnXs3RH4n5C3ecblmQRYPQZUp4Z1k&usqp=CAU'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -66,7 +66,7 @@ class Card3 extends StatelessWidget {
               //15
               children: [
                 Chip(
-                  label: Text('Natureza',
+                  label: Text('Nova',
                       style: GpsdoMundoTheme.darkTextTheme.bodyText1),
                   backgroundColor: Colors.black.withOpacity(0.7),
                   onDeleted: () {
@@ -74,7 +74,7 @@ class Card3 extends StatelessWidget {
                   },
                 ),
                 Chip(
-                  label: Text('Água',
+                  label: Text('Estado',
                       style: GpsdoMundoTheme.darkTextTheme.bodyText1),
                   backgroundColor: Colors.black.withOpacity(0.7),
                   onDeleted: () {
@@ -82,7 +82,7 @@ class Card3 extends StatelessWidget {
                   },
                 ),
                 Chip(
-                  label: Text('Arquitetura',
+                  label: Text('Estado Novo',
                       style: GpsdoMundoTheme.darkTextTheme.bodyText1),
                   backgroundColor: Colors.black.withOpacity(0.7),
                   onDeleted: () {
