@@ -16,7 +16,7 @@ class Card2 extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: NetworkImage(
-                'https://media-cdn.tripadvisor.com/media/photo-s/11/31/3b/34/robertavittoriano-verticalrio.jpg'),
+                'https://biblia.com.br/wp-content/uploads/2018/06/maos-semelhanca.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(
@@ -28,7 +28,7 @@ class Card2 extends StatelessWidget {
             authorName: 'Davi Veronez',
             title: 'Desenvolvedor',
             imageProvider: NetworkImage(
-                'https://thumbs.dreamstime.com/b/pao-de-acucar-rio-janeiro-brasil-vista-vertical-da-rocha-com-vizinhan%C3%A7a-urca-em-143907378.jpg'),
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q7QO_iQWl0F9K7248b1Xy2H-n4xjJpztj2XDeoe06dRRt-x-FdpW4KP8H0vOadp9ZWI&usqp=CAU'),
           ),
           Expanded(
             //2
@@ -39,7 +39,7 @@ class Card2 extends StatelessWidget {
                   bottom: 16,
                   right: 16,
                   child: Text(
-                    'Rio de janeiro',
+                    'Estado',
                     style: GpsdoMundoTheme.darkTextTheme.headline1,
                   ),
                 ),
@@ -50,7 +50,7 @@ class Card2 extends StatelessWidget {
                   child: RotatedBox(
                       quarterTurns: 3,
                       child: Text(
-                        'Paraiso',
+                        'Novo',
                         style: GpsdoMundoTheme.darkTextTheme.headline1,
                       )),
                 ),
