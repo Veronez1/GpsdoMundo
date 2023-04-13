@@ -4,10 +4,10 @@ import 'gpsdomundo_theme.dart';
 class Card1 extends StatelessWidget {
   const Card1({super.key});
   // 1
-  final String category = 'Cidade';
-  final String title = 'Paraiso';
-  final String description = 'Paisagem bonita';
-  final String tourist = 'Bonde';
+  final String category = 'Estado';
+  final String title = 'Novo';
+  final String description = 'Estado Novo';
+  final String tourist = 'Junto';
   //2
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class Card1 extends StatelessWidget {
         image: DecorationImage(
           //5
           image: NetworkImage(
-              'https://static-cse.canva.com/blob/759754/IMAGE1.jpg'),
+              'https://img2.migalhas.com.br/_MEDPROC_/https__img.migalhas.com.br__SL__gf_base__SL__empresas__SL__MIGA__SL__imagens__SL__2021__SL__10__SL__25__SL__05f03b23-c893-4438-9e0e-fc81ba1ad641.jpg._PROC_CP65.jpg'),
           // 6
           fit: BoxFit.cover,
         ),
